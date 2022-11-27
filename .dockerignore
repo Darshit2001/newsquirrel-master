@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+LICENSE
+.vscode
+build
+travis.yml
+coveralls.yml
+jest*
+readme-assets
+yarn.lock
+yarn-error.log

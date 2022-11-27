@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Tabs correctly 1`] = `
+<div
+  class="tabs is-medium sc-bwzfXH cxdjHF"
+  data-testid="main-tabs"
+  style=""
+>
+  <ul
+    class="sc-bdVaJa jtwmQU"
+  >
+    <li
+      class="sc-htpNat liJpkY"
+    >
+      <a
+        href="javascript:void(0);"
+        role="button"
+      >
+        Tab One
+      </a>
+    </li>
+    <li
+      class="sc-htpNat liJpkY"
+    >
+      <a
+        href="javascript:void(0);"
+        role="button"
+      >
+        Tab Two
+      </a>
+    </li>
+    <li
+      class="selected is-active sc-htpNat eAdLHf"
+    >
+      <a
+        href="javascript:void(0);"
+        role="button"
+      >
+        Tab Three
+      </a>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,67 @@
+{
+  "name": "react-news",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
+    "@jpavon/react-scripts-ts": "^1.2.0",
+    "@types/graphql": "^14.0.7",
+    "@types/i18next": "^12.1.0",
+    "@types/i18next-browser-languagedetector": "^2.0.2",
+    "@types/i18next-xhr-backend": "^1.4.2",
+    "@types/node": "^11.9.4",
+    "@types/react-i18next": "^8.1.0",
+    "apollo-boost": "^0.1.28",
+    "babel-plugin-react-remove-properties": "^0.3.0",
+    "browserslist": "^4.4.1",
+    "bulma": "^0.7.4",
+    "caniuse-lite": "^1.0.30000938",
+    "date-fns": "^1.30.1",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "i18next": "^15.0.4",
+    "i18next-browser-languagedetector": "^3.0.0",
+    "i18next-xhr-backend": "^2.0.0",
+    "luxon": "^1.11.2",
+    "react": "^16.8.2",
+    "react-apollo": "^2.4.1",
+    "react-dom": "^16.8.2",
+    "react-i18next": "^10.1.2",
+    "react-pose": "^4.0.7",
+    "react-powerplug": "^1.0.0",
+    "react-scripts": "2.1.5",
+    "recompose": "^0.30.0",
+    "typescript-babel-jest": "^1.0.6"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development && react-app-rewired start --scripts-version @jpavon/react-scripts-ts",
+    "start": "react-scripts start",
+    "build": "react-scripts-ts build",
+    "test": "jest",
+    "eject": "react-scripts-ts eject",
+    "cover": "jest -u --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.5",
+    "@types/luxon": "^1.11.0",
+    "@types/react-dom": "^16.8.1",
+    "@types/react-redux": "^7.0.1",
+    "@types/recompose": "^0.30.4",
+    "react-testing-library": "^5.8.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^3.3.3"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  }
+}
